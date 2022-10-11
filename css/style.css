@@ -1,0 +1,539 @@
+/**para llamar class va .nombreDeLaClase {;} **/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+} /**reseteo**/
+
+/**Header for all pages*/
+.logo{
+    background-repeat:no-repeat;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    position:relative
+}
+header{
+    font-family: 'PT Serif', serif;
+    background-color: black;
+}
+.nav-bar{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(204, 35, 12);
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+}
+.nav-bar li {
+    display: inline-block;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.nav-bar li a:hover {
+    background: rgb(109, 16, 16);
+}
+
+.search{
+    max-width: 400px;
+    margin-top: none;
+    margin-left: 15px;
+}
+
+.search input{
+    font-size: medium;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    padding: 10px;
+    border: 3px solid rgb(204, 35, 12);
+    border-radius: 10px;
+}
+
+.log-in button{
+    background-color: rgb(204, 35, 12); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1200px;
+    font-size: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.log-in button:hover{
+    background: rgb(109, 16, 16);
+}
+
+    /**Footer for all pages*/
+
+.background-img{
+    background-image:url(../assets/img/red-smoke-bcg-1.jfif) ;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer{
+    background-color: black;
+}
+
+.social-media a{
+    width:30px;
+    height:30px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+/**Index content*/
+
+.p-title{
+    font-size: 40px;
+    text-align: center; 
+    color: white;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    position: relative;
+    text-indent: 50px;
+}
+
+.p-text{
+    font-size: medium;
+    text-align: justify;
+    color: white;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    text-indent: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.home-video-title{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: x-large;
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    margin-top: none;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    background-color: black;
+    
+}
+
+.sign-up-form{
+    color: whitesmoke;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    border: 15px solid firebrick;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 500px;
+}
+
+/**The Basics.html*/
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-one{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/players-handbook-cover.jpg);
+    order: 1;
+}
+
+.card-two{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/dm-screen-desktop.jpg);
+    order: 2;
+}
+
+.card-three{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/1e-dnd-bcg.jpg);
+    order: 3;
+}
+
+.card-four{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/ABCs-and-123s-Featured.jpg);
+    order: 4;
+}
+
+.card-header{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: solid underline;
+    font-size:xx-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    outline: black;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-stroke-color: black;
+}
+
+.card-text{
+    color: white;
+    padding:20px;
+    text-decoration: solid black;
+    font-size: x-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/**MY DND BEYOND*/
+
+.card-five{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/my-characters-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 1;
+}
+
+.card-six{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/my-campaigns-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 2;
+}
+
+.card-seven{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/character-creation-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 3;
+}
+
+.card-eight{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/homebrew-adventures-card-bcg.jfif);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 4;
+}
+
+.card-nine{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/homebrew-creations-bcg.jfif);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 5;
+}
+
+.card-ten{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/browse-presets-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 6;
+}
+
+
+.card-title{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: solid underline;
+    font-size:xx-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    outline: black;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-stroke-color: black;
+}
+
+/*RESOURCES*/
+
+.squares{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.square-one{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/dnd-5e-core-books-phb-dm-guide-monster-manual.png);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 1;
+}
+
+.square-two{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/mordekainen-presents-cover.jpg);
+    order: 2;
+}
+
+.square-three{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/012cf48b-e9ee-4e16-a67c-d0d0a0151e35.__CR0\,0\,970\,600_PT0_SX970_V1___.jpg);
+    order: 3;
+}
+
+.square-four{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/Vecna-lives-cover-hd.jpg);
+    order: 4;
+}
+
+.square-five{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/bcg-screen-dragons.jpg);
+    order: 5;
+}
+
+.square-six{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/beholder-bcg-screen.jpg);
+    order: 6; /*REPLACE IMAGE FOR THE RIGHT ONE*/
+}
+
+.square-text{
+    color: white;
+    padding-top: 25%;
+    text-decoration: solid black;
+    font-size: x-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+
+/*NEWS*/
+.imageone{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+
+.imagetwo{
+    width:200px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+
+h2{
+    color: white;
+    font-size: large;
+    padding-bottom: 20px;
+    text-decoration: solid;
+    text-indent: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+article{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.article-text{
+    font-size: medium;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
