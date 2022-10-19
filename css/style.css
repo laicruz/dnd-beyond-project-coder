@@ -511,7 +511,7 @@ header{
     text-align: center;
     flex-wrap: wrap;
     background-image: url(../assets/img/beholder-bcg-screen.jpg);
-    order: 6; /*REPLACE IMAGE FOR THE RIGHT ONE*/
+    order: 6; 
 }
 
 .square-text{
@@ -523,9 +523,6 @@ header{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
-
-
-
 /*NEWS*/
 .imageone{
     width: 400px;
@@ -565,7 +562,262 @@ article{
 
 
 /*BASICS TABLET*/
-
 @media (max-width: 768px){
-    
+
+    .logo{
+        background-repeat:no-repeat;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: flex-start;
+        position:relative;
+    }
+    .log-in button{
+    background-color: rgb(204, 35, 12); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.header logo{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+}
+
+.card-one{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/players-handbook-cover.jpg);
+    order: 1;
+}
+
+.card-two{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/dm-screen-desktop.jpg);
+    order: 2;
+}
+
+.card-three{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/1e-dnd-bcg.jpg);
+    order: 3;
+}
+
+.card-four{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/tablet/ABCs-and-123s-Featured-\ tablet.jpg);
+    order: 4;
+}
+
+.background-img{
+    background-image:url(../assets/img/red-smoke-bcg-1.jfif) ;
+    width: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer{
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px;
+    justify-content: center;
+    align-self: center;
+}
+}
+
+/*BASICS MOBILE*/
+
+@media (max-width: 320px) {
+    .logo{
+        background-repeat:no-repeat;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: flex-start;
+        position:relative;
+    }
+    .log-in button{
+    background-color: rgb(204, 35, 12); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.header logo{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 320px;
+}
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+}
+
+.card-one{
+    width: 300px;
+    height: 350px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/players-handbook-cover.jpg);
+    order: 1;
+}
+
+.card-two{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/dm-screen-desktop.jpg);
+    order: 2;
+}
+
+.card-three{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/1e-dnd-bcg.jpg);
+    order: 3;
+}
+
+.card-four{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/tablet/ABCs-and-123s-Featured-\ tablet.jpg);
+    order: 4;
+}
+
+.background-img{
+    background-image:url(../assets/img/red-smoke-bcg-1.jfif) ;
+    width: 320px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer{
+    width: 90%;
+    max-width: 576px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 50px;
+    justify-content: center;
+    align-self: center;
+}
+
+
 }
