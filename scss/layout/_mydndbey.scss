@@ -1,0 +1,119 @@
+.grid-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 0;
+    padding: 20px;
+    border: 2px solid black;
+    scroll-behavior: smooth;
+}
+
+
+.card-five{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/my-characters-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 1;
+}
+
+.card-six{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/my-campaigns-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 2;
+}
+
+.card-seven{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/character-creation-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 3;
+}
+
+.card-eight{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/homebrew-adventures-card-bcg.jfif);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 4;
+}
+
+.card-nine{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/homebrew-creations-bcg.jfif);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 5;
+}
+
+.card-ten{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/browse-presets-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 6;
+}
+
+
+.card-title{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: solid underline;
+    font-size:xx-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    outline: black;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-stroke-color: black;
+}

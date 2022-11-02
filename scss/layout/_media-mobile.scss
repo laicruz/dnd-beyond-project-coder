@@ -1,0 +1,241 @@
+@media (max-width: 576px) {
+
+    .logo{
+        background-repeat:no-repeat;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: flex-start;
+        position:relative;
+    }
+    .log-in button{
+    background-color: rgb(204, 35, 12); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.header logo{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 320px;
+}
+
+.background-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto
+
+}
+
+.p-title{
+    display: flex;
+    flex-wrap: wrap;
+    width: 425px;
+    font-size: 23px;
+    text-align: center; 
+    color: white;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    position: relative;
+    text-indent: 50px;
+}
+
+.p-text{
+    display: flex;
+    flex-wrap: wrap;
+    width:425px;
+    font-size: small;
+    text-align: justify;
+    color: white;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    text-indent: 10px;
+}
+
+.home-video-title{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    margin-top: none;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    size-adjust: 30%;
+}
+
+.form{
+    background-color: black;
+    width: 425px;
+}
+
+.sign-up-form{
+    color: whitesmoke;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    width: 300px;
+    border: 5px solid firebrick;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 55px;
+}
+
+.sign-up-form h1 p{
+    display: flex;
+    text-align: center;
+
+}
+}
+
+/*BASICS MOBILE*/
+
+@media (max-width: 320px) {
+    .logo{
+        background-repeat:no-repeat;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: flex-start;
+        position:relative;
+    }
+    .log-in button{
+    background-color: rgb(204, 35, 12); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.header logo{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 320px;
+}
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+}
+
+.card-one{
+    width: 300px;
+    height: 350px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/players-handbook-cover.jpg);
+    order: 1;
+}
+
+.card-two{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/dm-screen-desktop.jpg);
+    order: 2;
+}
+
+.card-three{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/1e-dnd-bcg.jpg);
+    order: 3;
+}
+
+.card-four{
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/tablet/ABCs-and-123s-Featured-\tablet.jpg);
+    order: 4;
+}
+
+.background-img{
+    background-image:url(../assets/img/red-smoke-bcg-1.jfif) ;
+    width: 320px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer{
+    width: 90%;
+    max-width: 576px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 50px;
+    justify-content: center;
+    align-self: center;
+}
+
+}
+

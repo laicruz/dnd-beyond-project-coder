@@ -1,0 +1,72 @@
+.background-img{
+    background-image:url(../assets/img/red-smoke-bcg-1.jfif) ;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.p-title{
+    font-size: 40px;
+    text-align: center; 
+    color: white;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif; 
+    position: relative;
+    text-indent: 50px;
+}
+
+.p-text{
+    font-size: medium;
+    text-align: justify;
+    color: white;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    text-indent: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.home-video-title{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: x-large;
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    margin-top: none;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    background-color: black;
+    
+}
+
+.sign-up-form{
+    color: whitesmoke;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    border: 5px solid firebrick;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.sign-up-form h1 p{
+    display: flex;
+    text-align: center;
+}

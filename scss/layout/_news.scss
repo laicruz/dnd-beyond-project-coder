@@ -1,0 +1,35 @@
+.imageone{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+
+.imagetwo{
+    width:200px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+
+h2{
+    color: white;
+    font-size: large;
+    padding-bottom: 20px;
+    text-decoration: solid;
+    text-indent: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+article{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.article-text{
+    font-size: medium;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
