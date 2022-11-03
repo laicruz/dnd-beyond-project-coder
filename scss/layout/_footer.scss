@@ -2,10 +2,11 @@
     background-color: black;
 }
 
-.social-media {
-    padding-top: 40px;
-    display: flex;
+.social-media a{
+    width:30px;
+    height:30px;
+    display:inline-flex;
     justify-content: center;
+    align-items: center;
     background-color: black;
-    gap: 20px
 }

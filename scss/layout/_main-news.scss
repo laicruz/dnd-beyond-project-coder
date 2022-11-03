@@ -1,15 +1,22 @@
+.article-grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    width: auto
+}
+
 .imageone{
     width: 400px;
     display: flex;
     flex-wrap: wrap;
-    float: right;
+    float: left;
 }
 
 .imagetwo{
     width:200px;
     display: flex;
     flex-wrap: wrap;
-    float: right;
+    float: left;
 }
 
 h2{
@@ -32,4 +39,10 @@ article{
     font-size: medium;
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
+}
+
+section .video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
