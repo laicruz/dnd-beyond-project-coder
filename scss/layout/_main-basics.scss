@@ -1,21 +1,36 @@
-.cards-grid{
+.container {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    margin: 0;
-    padding: 20px;
-    border: 2px solid black;
-    scroll-behavior: smooth;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
 }
 
-.cards{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
+.div1 {
+        grid-area: 1 / 1 / 2 / 2; 
+        background-image: url(../assets/img/players-handbook-cover.jpg);
+        order: 1;
 }
 
-.card-one{
+.div2 { 
+        grid-area: 1 / 2 / 2 / 3; 
+        background-image: url(../assets/img/dm-screen-desktop.jpg);
+        order: 2;
+}
+
+    .div3 { 
+        grid-area: 2 / 1 / 3 / 2; 
+        background-image: url(../assets/img/1e-dnd-bcg.jpg);
+        order: 3;
+}
+
+    .div4 { 
+        grid-area: 2 / 2 / 3 / 3; 
+        background-image: url(../assets/img/ABCs-and-123s-Featured.jpg);
+        order: 4;
+}
+
+.div1, .div2, .div3, .div4{
     width: 550px;
     height: 300px;
     border:1px solid;
@@ -27,56 +42,9 @@
     background-size: cover;
     text-align: center;
     flex-wrap: wrap;
-    background-image: url(../assets/img/players-handbook-cover.jpg);
-    order: 1;
-}
-
-.card-two{
-    width: 550px;
-    height: 300px;
-    border:1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/dm-screen-desktop.jpg);
-    order: 2;
-}
-
-.card-three{
-    width: 550px;
-    height: 300px;
-    border:1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/1e-dnd-bcg.jpg);
-    order: 3;
-}
-
-.card-four{
-    width: 550px;
-    height: 300px;
-    border:1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/ABCs-and-123s-Featured.jpg);
-    order: 4;
+    ul li{
+        list-style: none;
+    }
 }
 
 .card-header{
@@ -99,4 +67,5 @@
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    list-style: none;
 }
