@@ -13,11 +13,10 @@
 
 header {
   font-family: 'PT Serif', serif;
-  background-color: black; }
+  background-color: black;
+  width: auto; }
 
-.nav-bar {
-  list-style: none;
-  padding: 0;
+.navbar-nav {
   background-color: #cc230c;
   width: 70%;
   margin: auto;
@@ -27,7 +26,7 @@ header {
   align-items: center;
   border-radius: 10px; }
 
-.nav-bar li a {
+.navbar-nav li a {
   text-decoration: none;
   color: whitesmoke;
   padding: 20px;
@@ -37,27 +36,28 @@ header {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: large; }
 
-.nav-bar li {
+.navbar-nav li {
   display: inline-block;
   text-align: center;
   flex-wrap: wrap;
   justify-content: space-evenly; }
 
-.nav-bar li a:hover {
+.navbar-bar li a:hover {
   background: #6d1010; }
 
 .search {
   max-width: 400px;
   margin-top: none;
   margin-left: 15px; }
-
-.search input {
-  font-size: medium;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: black;
-  padding: 10px;
-  border: 3px solid #cc230c;
-  border-radius: 10px; }
+  .search input {
+    font-size: medium;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    padding: 10px;
+    border: 3px solid #cc230c;
+    border-radius: 10px; }
+  .search button:hover {
+    background: #6d1010; }
 
 .log-in button {
   background-color: #cc230c;
@@ -503,6 +503,458 @@ section .video {
   flex-wrap: wrap;
   justify-content: center; }
 
+/*INDEX TABLET*/
+@media (max-width: 768px) {
+  .logo {
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    position: relative; }
+  .log-in button {
+    background-color: #cc230c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  .header logo {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 320px; }
+  .background-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto; }
+  .p-title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    text-indent: 50px; }
+  .p-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    font-size: small;
+    text-align: justify;
+    color: white;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    text-indent: 10px; }
+  .home-video-title {
+    width: 768px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    display: flex;
+    align-self: start;
+    justify-content: center; }
+  .video {
+    display: flex;
+    justify-content: center;
+    size-adjust: 50%; }
+  .form {
+    background-color: black;
+    width: 768px; }
+  .sign-up-form {
+    color: whitesmoke;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 300px;
+    border: 5px solid firebrick;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 250px; }
+  .sign-up-form h1 p {
+    display: flex;
+    text-align: center; } }
+
+/*BASICS TABLET*/
+@media (max-width: 768px) {
+  .logo {
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    position: relative; }
+  .log-in button {
+    background-color: #cc230c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  .header logo {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto; }
+  .card-one {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/players-handbook-cover.jpg);
+    order: 1; }
+  .card-two {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/dm-screen-desktop.jpg);
+    order: 2; }
+  .card-three {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/1e-dnd-bcg.jpg);
+    order: 3; }
+  .card-four {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/tablet/ABCs-and-123s-Featured-\tablet.jpg);
+    order: 4; }
+  .background-img {
+    background-image: url(../assets/img/red-smoke-bcg-1.jfif);
+    width: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .footer {
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px;
+    justify-content: center;
+    align-self: center; } }
+
+/*MY DND BEYOND TABLET*/
+@media (max-width: 768px) {
+  .grid-cards {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin: 0;
+    padding: 20px;
+    border: 2px solid black;
+    scroll-behavior: smooth; }
+  .card-five {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/my-characters-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 1; }
+  .card-six {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/my-campaigns-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 2; }
+  .card-seven {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/character-creation-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 3; }
+  .card-eight {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/homebrew-adventures-card-bcg.jfif);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 4; }
+  .card-nine {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/homebrew-creations-bcg.jfif);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 5; }
+  .card-ten {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/browse-presets-bcg.jpg);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 6; }
+  .card-title {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: solid underline;
+    font-size: xx-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    outline: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; } }
+
+/*RESOURCES TABLET*/
+@media (max-width: 768px) {
+  .squares {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    margin: 0;
+    padding: 20px;
+    border: 2px solid black;
+    scroll-behavior: smooth; }
+  .square-one {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-image: url(../assets/img/dnd-5e-core-books-phb-dm-guide-monster-manual.png);
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    order: 1; }
+  .square-two {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/mordekainen-presents-cover.jpg);
+    order: 2; }
+  .square-three {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/012cf48b-e9ee-4e16-a67c-d0d0a0151e35.__CR0\,0\,970\,600_PT0_SX970_V1___.jpg);
+    order: 3; }
+  .square-four {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/Vecna-lives-cover-hd.jpg);
+    order: 4; }
+  .square-five {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/bcg-screen-dragons.jpg);
+    order: 5; }
+  .square-six {
+    width: 550px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 32px 15px 15px -3px black;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: url(../assets/img/beholder-bcg-screen.jpg);
+    order: 6; }
+  .square-text {
+    color: white;
+    padding-top: 25%;
+    text-decoration: solid black;
+    font-size: x-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; } }
+
+/*NEWS */
+@media (max-width: 768px) {
+  .article-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    width: auto; }
+  .imageone {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right; }
+  .imagetwo {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right; }
+  h2 {
+    color: white;
+    font-size: large;
+    padding-bottom: 20px;
+    text-decoration: solid;
+    text-indent: 50px;
+    font-family: 'Source Sans Pro', sans-serif; }
+  article {
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px; }
+  .article-text {
+    font-size: medium;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white; }
+  section .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; } }
+
 .footer {
   background-color: black; }
 
@@ -943,458 +1395,6 @@ section .video {
     display: flex;
     flex-wrap: wrap;
     float: left; }
-  h2 {
-    color: white;
-    font-size: large;
-    padding-bottom: 20px;
-    text-decoration: solid;
-    text-indent: 50px;
-    font-family: 'Source Sans Pro', sans-serif; }
-  article {
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px; }
-  .article-text {
-    font-size: medium;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white; }
-  section .video {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; } }
-
-/*INDEX TABLET*/
-@media (max-width: 768px) {
-  .logo {
-    background-repeat: no-repeat;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-items: flex-start;
-    position: relative; }
-  .log-in button {
-    background-color: #cc230c;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; }
-  .header logo {
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 320px; }
-  .background-img {
-    display: flex;
-    flex-wrap: wrap;
-    width: auto; }
-  .p-title {
-    display: flex;
-    flex-wrap: wrap;
-    width: 768px;
-    font-size: 23px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-family: 'Source Sans Pro', sans-serif;
-    position: relative;
-    text-indent: 50px; }
-  .p-text {
-    display: flex;
-    flex-wrap: wrap;
-    width: 768px;
-    font-size: small;
-    text-align: justify;
-    color: white;
-    font-weight: normal;
-    font-family: 'Source Sans Pro', sans-serif;
-    position: relative;
-    text-indent: 10px; }
-  .home-video-title {
-    width: 768px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    color: white;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: medium;
-    display: flex;
-    align-self: start;
-    justify-content: center; }
-  .video {
-    display: flex;
-    justify-content: center;
-    size-adjust: 50%; }
-  .form {
-    background-color: black;
-    width: 768px; }
-  .sign-up-form {
-    color: whitesmoke;
-    display: flex;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 300px;
-    border: 5px solid firebrick;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 250px; }
-  .sign-up-form h1 p {
-    display: flex;
-    text-align: center; } }
-
-/*BASICS TABLET*/
-@media (max-width: 768px) {
-  .logo {
-    background-repeat: no-repeat;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-items: flex-start;
-    position: relative; }
-  .log-in button {
-    background-color: #cc230c;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; }
-  .header logo {
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-  .cards {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    width: auto; }
-  .card-one {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/players-handbook-cover.jpg);
-    order: 1; }
-  .card-two {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/dm-screen-desktop.jpg);
-    order: 2; }
-  .card-three {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/1e-dnd-bcg.jpg);
-    order: 3; }
-  .card-four {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/tablet/ABCs-and-123s-Featured-\tablet.jpg);
-    order: 4; }
-  .background-img {
-    background-image: url(../assets/img/red-smoke-bcg-1.jfif);
-    width: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
-  .footer {
-    width: 100%;
-    max-width: 768px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 50px;
-    justify-content: center;
-    align-self: center; } }
-
-/*MY DND BEYOND TABLET*/
-@media (max-width: 768px) {
-  .grid-cards {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    margin: 0;
-    padding: 20px;
-    border: 2px solid black;
-    scroll-behavior: smooth; }
-  .card-five {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-image: url(../assets/img/my-characters-bcg.jpg);
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    order: 1; }
-  .card-six {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-image: url(../assets/img/my-campaigns-bcg.jpg);
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    order: 2; }
-  .card-seven {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-image: url(../assets/img/character-creation-bcg.jpg);
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    order: 3; }
-  .card-eight {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-image: url(../assets/img/homebrew-adventures-card-bcg.jfif);
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    order: 4; }
-  .card-nine {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-image: url(../assets/img/homebrew-creations-bcg.jfif);
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    order: 5; }
-  .card-ten {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-image: url(../assets/img/browse-presets-bcg.jpg);
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    order: 6; }
-  .card-title {
-    color: whitesmoke;
-    text-align: center;
-    padding-top: 40px;
-    text-decoration: solid underline;
-    font-size: xx-large;
-    font-family: 'Source Sans Pro', sans-serif;
-    outline: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black; } }
-
-/*RESOURCES TABLET*/
-@media (max-width: 768px) {
-  .squares {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto auto auto;
-    margin: 0;
-    padding: 20px;
-    border: 2px solid black;
-    scroll-behavior: smooth; }
-  .square-one {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-image: url(../assets/img/dnd-5e-core-books-phb-dm-guide-monster-manual.png);
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    order: 1; }
-  .square-two {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/mordekainen-presents-cover.jpg);
-    order: 2; }
-  .square-three {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/012cf48b-e9ee-4e16-a67c-d0d0a0151e35.__CR0\,0\,970\,600_PT0_SX970_V1___.jpg);
-    order: 3; }
-  .square-four {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/Vecna-lives-cover-hd.jpg);
-    order: 4; }
-  .square-five {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/bcg-screen-dragons.jpg);
-    order: 5; }
-  .square-six {
-    width: 550px;
-    height: 300px;
-    border: 1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 10%;
-    box-shadow: 32px 15px 15px -3px black;
-    background-size: cover;
-    text-align: center;
-    flex-wrap: wrap;
-    background-image: url(../assets/img/beholder-bcg-screen.jpg);
-    order: 6; }
-  .square-text {
-    color: white;
-    padding-top: 25%;
-    text-decoration: solid black;
-    font-size: x-large;
-    font-family: 'Source Sans Pro', sans-serif;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black; } }
-
-/*NEWS */
-@media (max-width: 768px) {
-  .article-grid {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    width: auto; }
-  .imageone {
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    float: right; }
-  .imagetwo {
-    width: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    float: right; }
   h2 {
     color: white;
     font-size: large;

@@ -9,10 +9,10 @@
 header{
     font-family: 'PT Serif', serif;
     background-color: black;
+    width: auto;
 }
-.nav-bar{
-    list-style: none;
-    padding: 0;
+
+.navbar-nav {
     background-color: rgb(204, 35, 12);
     width: 70%;
     margin: auto;
@@ -22,7 +22,7 @@ header{
     align-items: center;
     border-radius: 10px;
 }
-.nav-bar li a{
+.navbar-nav li a{
     text-decoration: none;
     color: whitesmoke;
     padding: 20px;
@@ -32,13 +32,13 @@ header{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: large;
 }
-.nav-bar li {
+.navbar-nav li {
     display: inline-block;
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.nav-bar li a:hover {
+.navbar-bar li a:hover {
     background: rgb(109, 16, 16);
 }
 
@@ -46,13 +46,17 @@ header{
     max-width: 400px;
     margin-top: none;
     margin-left: 15px;
-}
+        input{
+            font-size: medium;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: black;
+            padding: 10px;
+            border: 3px solid rgb(204, 35, 12);
+            border-radius: 10px;
+            }
+            button:hover {
+                background: #6d1010; 
+            }
+        }
 
-.search input{
-    font-size: medium;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: black;
-    padding: 10px;
-    border: 3px solid rgb(204, 35, 12);
-    border-radius: 10px;
-}
+
